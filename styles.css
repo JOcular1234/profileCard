@@ -5,6 +5,7 @@ body{
     background: linear-gradient(90deg, #000,  hsl(0, 0%, 25%));
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    user-select: none;
 }
 .logo {
     color: white;
@@ -51,6 +52,11 @@ body{
     width: 100px;
     display: flex;
     align-items: center;
+    user-select: none;
+}
+.second-section a:hover{
+    background-color: #1E3A8A;
+    user-select: none;
 }
 .second-section div{
     height: 20px;
@@ -60,6 +66,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.second-section div:hover{
+    background-color: #000;
 }
 .second-section .secd-div{
     background-color: hsl(0, 0%, 67%);
