@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: hsl(0, 0%, 10%); */
+    background: linear-gradient(90deg, #000,  hsl(0, 0%, 25%));
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin:50px ;
+    margin-bottom: -30px;
+    margin-top: 150px;
+}
+.logo a{
+    color: #ddd;
+    text-decoration: none;
+}
+.logo span{
+    color: hsl(0, 93%, 55%);
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section{
+    color: #ddd;
+    margin: 50px;
+}
+.first-section h1{
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+.first-section h3{
+    font-size: 20px;
+    color: hsl(0, 0%, 77%);
+    margin-bottom: 50px;
+}
+
+.second-section a{
+    background-color:hsl(0, 0%, 10%);
+    color:#fff ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.second-section div{
+    height: 20px;
+    width: 20px;
+    background-color: #1E3A8A;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-section .secd-div{
+    background-color: hsl(0, 0%, 67%);
+    height: 8px;
+    width: 8px;
+}
+.side-container{
+    background: linear-gradient(90deg, #000,  hsl(0, 0%, 15%));
+
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+}
+.myimg{
+    border: 5px solid #000;
+    border-radius: 100%;
+    background-color: #000;
+}
+footer {
+    background: #000;
+    color: gray;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+@media (max-width:699px) {
+    .main-section{
+        flex-direction: column;
+    }
+    .first-section{
+        color: #ddd;
+        /* margin: 50px; */
+        text-align: center;
+    }
+    .first-section h1{
+        font-size: 50px;
+        margin-bottom: -10px;
+    }
+    .first-section h3{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .second-section a{   
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .second-section div{
+        height: 50px;
+        width: 50px;  
+    }
+    .second-section .secd-div{
+        height: 20px;
+        width: 20px;
+    }
+    .side-container{
+        background: linear-gradient(90deg, #000,  hsl(0, 0%, 25%));
+        width: 90%;
+      
+    }
+    .myimg{
+        border: 5px solid #000;
+        border-radius: 100%;
+        background-color: #000;
+        display: block;
+    }
+}
+@media (max-width:380px) {
+    .first-section h1{
+        font-size: 30px;
+        margin-bottom: -10px;
+    }
+}
