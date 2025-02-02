@@ -71,9 +71,19 @@ body{
     background-color: #000;
 }
 .second-section .secd-div{
-    background-color: hsl(0, 0%, 67%);
+    background-color: hsl(0, 79%, 69%);
     height: 8px;
     width: 8px;
+    animation: zoomout 1s ease-out .5s infinite normal  forwards;
+}
+
+@keyframes zoomout {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .side-container{
     background: linear-gradient(90deg, #000,  hsl(0, 0%, 15%));
